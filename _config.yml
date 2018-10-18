@@ -28,9 +28,9 @@ remote_theme: qwtel/hydejack
 plugins:
   - jekyll-feed
 
-accent_image: none
+accent_image: /assets/sidebar_lab.jpg
 accent_color: rgb(0,0,0)
-google_fonts: Cabin+Sketch:700
+google_fonts: Cabin+Sketch
 font-heading: Cabin+Sketch
 
 defaults:
