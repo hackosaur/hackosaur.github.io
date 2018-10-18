@@ -18,7 +18,7 @@ email: joe@hackosaur.us
 description: >- # this means to ignore newlines until "baseurl:"
   terrifying ideas, monstrous code
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://hackosaur.us" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hackosaurus_rex
 github_username:  hackosaur
 
@@ -28,6 +28,15 @@ remote_theme: qwtel/hydejack
 plugins:
   - jekyll-feed
 
+defaults:
+  - scope:
+      path: about.md
+    values:
+      menu: true 
+      order: 1
+
+
+      
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
