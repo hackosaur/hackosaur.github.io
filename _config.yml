@@ -28,6 +28,9 @@ remote_theme: qwtel/hydejack
 plugins:
   - jekyll-feed
 
+accent_image: none
+accent_color: rgb(0,0,0)
+
 defaults:
   - scope:
       path: about.md
@@ -36,7 +39,7 @@ defaults:
       order: 1
 
 
-      
+   
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
