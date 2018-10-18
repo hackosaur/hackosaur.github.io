@@ -30,6 +30,8 @@ plugins:
 
 accent_image: none
 accent_color: rgb(0,0,0)
+google_fonts: Cabin+Sketch:700
+font-heading: Cabin+Sketch
 
 defaults:
   - scope:
