@@ -28,7 +28,7 @@ remote_theme: qwtel/hydejack
 plugins:
   - jekyll-feed
 
-accent_image: /assets/sidebar_lab.jpg
+accent_image: /assets/sidebar_lab_blur.jpg
 accent_color: rgb(0,0,0)
 
 defaults:
